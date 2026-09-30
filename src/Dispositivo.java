@@ -17,6 +17,6 @@ public class Dispositivo {
         System.out.println("Nombre:" + nombre+ "\nEstado:"+estado);
 
     }
-
+System.out.println(
 }
 
