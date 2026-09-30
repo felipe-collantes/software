@@ -16,5 +16,6 @@ void main() {
     d2.mostrarEstado();
     d2.mostrarinformacion();
     d1.mostrarEstado();
+    System.out.println
 
 }
