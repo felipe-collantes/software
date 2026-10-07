@@ -4,18 +4,35 @@ void main() {
     Dispositivo d1 = new Dispositivo();
     Dispositivo d2 = new Dispositivo();
 
-    d1.nombre = "Telefono";
+    /* d1.nombre = "Telefono";
     d1.tipo ="Comunicacion";
     d1.activo = true;
 
     d2.nombre = "Impresora";
     d2.tipo ="Recurso";
-    d2.activo = false;
+    d2.activo = false;/*
 
+
+/*
     d1.mostrarinformacion();
     d2.mostrarEstado();
     d2.mostrarinformacion();
     d1.mostrarEstado();
-    System.out.println
+
+     */
+
+    d1.setNombre("Mouse");
+    d1.setTipo("Comunicacion");
+    d1.setActivo(true);
+
+    System.out.println(d1.getNombre());
+    System.out.println(d1.getTipo());
+    System.out.println(d1.isActivo());
+
+
+    d1.setNombre("");
+    System.out.println(d1.getNombre());
+
+
 
 }
